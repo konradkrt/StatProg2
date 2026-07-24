@@ -1,0 +1,28 @@
+---
+title: "about"
+---
+
+here you see interesting facts about Penguins.
+
+
+```{r}
+#| lable: penguins-glimpse
+library(palmerpenguins)
+library(tidyverse)
+```
+
+```{r}
+#| warning: false
+#| lable: fig-penguins
+head(penguins)
+scatter_penguins_plot <- ggplot(penguins, aes(
+  x = bill_length_mm,
+  y = bill_depth_mm,
+  color = species
+)) + geom_point() + labs(
+  title = "comparing penguin species by bill size",
+  x = "bill length in mm",
+  y = "bill depth in mm"
+)
+scatter_penguins_plot
+```

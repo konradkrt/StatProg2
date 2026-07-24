@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "quarto_playground"
+  navbar:
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - text: playground
+      - quarto_playground.qmd
+        
+
+format:
+  html:
+    code-fold: true
+    code-summary: "show code"
+    code-line-numbers: true
+    code-copy: hover
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
