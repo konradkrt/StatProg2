@@ -1,3 +1,3 @@
 # StatProg2
-# StatProg2 > Statprog1
+# Statprog2 = Statprog 101
 # StatProg2 = 2x StatProg1
